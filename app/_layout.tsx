@@ -32,8 +32,12 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
-        <Stack.Screen name='jakrespon/jakrespon' options={{ headerShown:false }} />
-        <Stack.Screen name='jakrespon/detaillaporan' options={{ headerShown:false }}/>
+        <Stack.Screen name='jak/respon/respon' options={{ headerShown:false }} />
+        <Stack.Screen name='jak/respon/detaillaporan' options={{ headerShown:false }}/>
+        <Stack.Screen name='jak/warta/warta' options={{ headerShown:false }}/>
+        <Stack.Screen name='jak/pangan/pangan' options={{ headerShown:false }}/>
+        <Stack.Screen name='jak/pangan/detailpangan' options={{ headerShown:false }}/>
+        <Stack.Screen name='jak/pangan/pasar' options={{ headerShown:false }}/>
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>

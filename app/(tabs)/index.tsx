@@ -32,39 +32,58 @@ const index = () => {
           
         </View>
         <View style={tw`mx-6 my-15 flex-row justify-between gap-10 flex-wrap`}>
+          <Link href={'/jak/warta/warta'}>
             <View style={tw`flex-column items-center gap-5`}>
-              <FontAwesome name='bar-chart' size={30}/>
+              <View style={tw`bg-white w-15 h-15 rounded-full shadow-xl justify-center items-center`}>
+                <FontAwesome name='bar-chart' size={30}/>
+              </View>
               <Text>JakWarta</Text>
             </View>
-            
-            <Link href={"/jakrespon/jakrespon"}>
-              <View style={tw`flex-column items-center gap-5`}>
-                <AntDesign name='message1' size={30}/>
-                <Text>JakResponse</Text>
-              </View>
-            </Link>
+          </Link> 
+          <Link href={"/jak/respon/respon"}>
             <View style={tw`flex-column items-center gap-5`}>
-              <MaterialCommunityIcons name='grass' size={30}/>
+              <View style={tw`bg-white w-15 h-15 rounded-full shadow-xl justify-center items-center`}>
+                <AntDesign name='message1' size={30}/>
+              </View>
+              <Text>JakResponse</Text>
+            </View>
+          </Link>
+          <Link href={'/jak/pangan/pangan'}>
+            <View style={tw`flex-column items-center gap-5`}>
+              <View style={tw`bg-white w-15 h-15 rounded-full shadow-xl justify-center items-center`}>
+                <MaterialCommunityIcons name='grass' size={30}/>
+              </View>
               <Text>JakPangan</Text>
             </View>
+          </Link>
             <View style={tw`flex-column items-center gap-5`}>
-              <FontAwesome5 name='bus' size={30}/>
+              <View style={tw`bg-white w-15 h-15 rounded-full shadow-xl justify-center items-center`}>
+                <FontAwesome5 name='bus' size={30}/>
+              </View>
               <Text>JakLingko</Text>
             </View>
             <View style={tw`flex-column items-center gap-5`}>
-              <Foundation name='telephone' size={30}/>
+              <View style={tw`bg-white w-15 h-15 rounded-full shadow-xl justify-center items-center`}>
+                <Foundation name='telephone' size={30}/>
+              </View>
               <Text>JakSiaga</Text>
             </View>
             <View style={tw`flex-column items-center gap-5`}>
-              <MaterialCommunityIcons name='wifi-arrow-up-down' size={30}/>
+              <View style={tw`bg-white w-15 h-15 rounded-full shadow-xl justify-center items-center`}>
+                <MaterialCommunityIcons name='wifi-arrow-up-down' size={30}/>
+              </View>
               <Text>JakWifi</Text>
             </View>
             <View style={tw`flex-column items-center gap-5`}>
-              <MaterialCommunityIcons name='car-off' size={30}/>
+              <View style={tw`bg-white w-15 h-15 rounded-full shadow-xl justify-center items-center`}>
+                <MaterialCommunityIcons name='car-off' size={30}/>
+              </View>
               <Text>JakEmisi</Text>
             </View>
             <View style={tw`flex-column items-center gap-5`}>
-              <AntDesign name='appstore1' size={30}/>
+              <View style={tw`bg-white w-15 h-15 rounded-full shadow-xl justify-center items-center`}>
+                <AntDesign name='appstore1' size={30}/>
+              </View>
               <Text>Lainnya</Text>
             </View>
         </View>
